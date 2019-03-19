@@ -5,7 +5,7 @@
     <string name="error_no_data">Rien à copier</string>
     <string name="error_type_not_supported">Type de partage non supporté, merci de rapporter aux développeurs</string>
     <string name="copied">Copier vers le Presse-papiers</string>
-    <string name="apps_by_tengu">Application par Tengu</string>
+    <string name="download_fdroid">Application par Tengu</string>
     <string name="about">À propos</string>
     <string name="about_content">Copier vers le Presse-papiers directement à partir du bouton \"Partager\" d\'Android.\n
   \n
