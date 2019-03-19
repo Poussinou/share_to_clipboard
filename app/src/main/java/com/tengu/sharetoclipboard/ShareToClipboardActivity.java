@@ -13,7 +13,6 @@ import android.os.Bundle;
 import android.provider.ContactsContract.Contacts;
 import android.widget.Toast;
 
-import com.tengu.sharetoclipboard.Utils.NotificationUtil;
 import com.tengu.sharetoclipboard.Utils.PreferenceUtil;
 
 import java.io.FileNotFoundException;
@@ -174,10 +173,6 @@ public class ShareToClipboardActivity extends Activity {
                     .newPlainText(
                             "text", clipboardText);
             clipboard.setPrimaryClip(clip);
-        }
-
-        if (PreferenceUtil.shouldDisplayNotification(this)) {
-            NotificationUtil.createNotification(this);
         }
     }
 }

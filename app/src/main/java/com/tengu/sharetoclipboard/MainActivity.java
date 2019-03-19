@@ -19,7 +19,7 @@ import com.tengu.sharetoclipboard.Utils.PreferenceUtil;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String TENGU_URL = "https://f-droid.org/";
+    private static final String FDROID_URL = "https://f-droid.org/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse(TENGU_URL));
+                intent.setData(Uri.parse(FDROID_URL));
                 startActivity(intent);
             }
         });
